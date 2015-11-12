@@ -1,0 +1,13 @@
+void settings();
+int mainsettings();
+void showhighscore();
+void plives();
+void difficulty();
+int senddiff();
+void pro();
+void inter();
+void beginner();
+void about();
+void endgame();
+void clearscores();
+void twoplayer();
