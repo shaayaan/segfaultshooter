@@ -841,11 +841,6 @@ void twoplayer() {
 }
 
 
-void twoplayervs() {
-	flagvs = 1;
-	mainn2();
-}
-
 int is2player() {
 	return flagvs;
 }
