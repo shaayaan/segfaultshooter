@@ -4,7 +4,7 @@ MIS   : 11403073
 NAME  : SHAYAN KHAN
 
 	
-*****Aim of the Game*****
+			    *****Aim of the Game*****
 
 SegFault shooter is a basic shooting game and your aim is to protect yourself and your home from the coming army of segfaults !
 The segfaults are of many types.The larger one's get killed with three bullets and smaller one's with one or two.
@@ -20,35 +20,24 @@ A very addictive mode the 2 PLAYER MODE where both players act as a team and fig
 		 	       	  "GOD MODE"
 Another interesting mode is the GOD-MODE, where you have unlimited health and segfaults move extremely fast.This mode can be used as a practise mode also !
 
-						      "SURVIVAL MODE"
-This mode is a minute mode.
+			        "SURVIVAL MODE"
+This mode is a 2 minute mode.
 You have one minute and you just need to survive the game.
 Your health reduces only when the segfault hits you not when it hits your wall.
 Infact if it hits your wall, your score increases.
 If You survive for 2 min, you Win the game !!
 
-				             ****MENU Flooded with OPTIONS*****
+	                ****MENU Flooded with OPTIONS*****
 
-		The menu is very user friendly, easy to use and flooded with variety of modes and options 
+The menu is very user friendly, easy to use and flooded with variety of modes and options 
 
+	             *****VARIETY OF DIFICULTY LEVELS******
 
+The game is very very flexible.You can opt for beginner, intermediate or expert mode.
 
-				           *****VARIETY OF DIFICULTY LEVELS******
+            ******FLEXIBILITY  OF SETTING LIVES MANUALLY*******
 
-
-		The game is very very flexible.You can opt for beginner, intermediate or expert mode.
-
-
-
-			            ******FLEXIBILITY  OF SETTING LIVES MANUALLY*******
-
-
-		             *****WELL MANAGED HIGHSCORE WITH "CLEAR HIGHSCORE" option*******
-
+         *****WELL MANAGED HIGHSCORE WITH "CLEAR HIGHSCORE" option*******
 
 The game stores "top 10" highscorers and their scores in an order.You can view the highsores anytime.You can also clear the scores using clear score option in settings.
 (The score is saved in a temporary system file in the root which is invisible to a "normal " user :-p... like pro games).
-
-
--Shayan Khan
-
