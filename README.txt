@@ -1,5 +1,5 @@
-				***SEG-FAULT SHOOTER***
-TITLE : SEG-FAULT SHOOTER !! 
+			    ***SEG-FAULT SHOOTER***
+TITLE : SEG-FAULT SHOOTER!! 
 MIS   : 11403073
 NAME  : SHAYAN KHAN
 
@@ -14,10 +14,12 @@ As your score increases the game becomes tougher !!
  		         ***** VARIETY OF GAME MODES *****
 
 			        "2 PLAYER MODE"
+
 A very addictive mode the 2 PLAYER MODE where both players act as a team and fight.Both have common health and Score.
 
 
 		 	       	  "GOD MODE"
+
 Another interesting mode is the GOD-MODE, where you have unlimited health and segfaults move extremely fast.This mode can be used as a practise mode also !
 
 			        "SURVIVAL MODE"
