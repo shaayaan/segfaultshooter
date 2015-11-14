@@ -108,6 +108,7 @@ int main() {
 	mvprintw(LINES - 2, 2, "Press F1 to EXIT");
 	while(xc != COLS / 2 - 43) {
 		clear();
+
 //s
 		mvprintw(y, xc, "####");
 		mvprintw(y + 1, xc, "#");
@@ -467,6 +468,7 @@ void showhighscore() {
 	clear();
 	refresh();		
 }
+
 /*Opens the settings menu*/
 void settings() {
 	clear();
@@ -486,18 +488,22 @@ void settings() {
 	init_pair(1, COLOR_GREEN, COLOR_BLACK);
 	init_pair(4, COLOR_GREEN, COLOR_BLACK);
 	attrset(COLOR_PAIR(1));
+	
 	my_items = (ITEM **)calloc(n_sett + 1, sizeof(ITEM *));
 	mvwprintw(stdscr, LINES - 2, 2, "Press F1 to EXIT");
 	for(i = 0; i < n_sett; ++i)
 		my_items[i] = new_item(sett[i], NULL);
 	my_items[n_sett] = (ITEM *)NULL;
+
 	set_item_userptr(my_items[0], difficulty);
 	set_item_userptr(my_items[1], twoplayer);
 	set_item_userptr(my_items[2], godmod);
 	set_item_userptr(my_items[3], survive);
 	set_item_userptr(my_items[4], plives);
 	set_item_userptr(my_items[5], clearscores);
+	
 	my_menu = new_menu((ITEM **)my_items);
+
 	gamewin = newwin(20, 60, (LINES - 20) / 2, (COLS - 60) / 2);
 	keypad(gamewin, TRUE);
 	set_menu_win(my_menu, gamewin);
