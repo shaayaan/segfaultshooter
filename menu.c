@@ -72,6 +72,7 @@ int main() {
 	cbreak();
 	keypad(stdscr, TRUE);
 	start_color();
+
 	init_pair(1, COLOR_GREEN, COLOR_BLACK);
 	init_pair(4, COLOR_GREEN, COLOR_BLACK);
 	init_pair(9, COLOR_WHITE, COLOR_WHITE);
@@ -82,6 +83,7 @@ int main() {
 	init_pair(7, COLOR_RED, COLOR_RED);
 	init_pair(8, COLOR_YELLOW, COLOR_YELLOW);
 	init_pair(10, COLOR_CYAN, COLOR_CYAN);
+
 	attrset(COLOR_PAIR(1));
 	my_items = (ITEM **)calloc(n_choices + 1, sizeof(ITEM *));
 	mvwprintw(stdscr, LINES - 2, 2, "Press F1 to EXIT");

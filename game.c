@@ -15,6 +15,8 @@
  * along with this program; if not, write to the Free Software Foundation,
  * Inc., 51 Franklin Street, Fifth Floor, Boston MA 02110-1301, USA.
  *****************************************************************************/
+
+
 #include <linux/input.h> /*inside usr/include/linux there is a file called input.h which contains the #define values of all the keys on keyborad*/
 #include <ncurses.h>
 #include <unistd.h>
@@ -22,6 +24,8 @@
 #include <time.h>
 #include <string.h>
 #include"game.h"
+
+
 int nbugparts = 5;
 char *bugparts[5] = {"OO\nOO", "OOOOO\nO     \nO     \nO     \nOOOOO\n", "OOOO\nO  O\nO  O\nOOOO\n", "OOO\nOOO\nOOO", "OOOOO\n"};
 /*bugparts basically is the variety of enemies*/
@@ -284,7 +288,7 @@ void game() {
 				copyobject(&old[i], &bugs[i]);
 			}
 			int oldn = nbugs;
-			nbugs += levels;;
+			nbugs += levels;
 			bugs = realloc(bugs, nbugs * sizeof(object));
 			for (i = 0; i < oldn; i++) {
 				copyobject(&bugs[i], &old[i]);
@@ -419,7 +423,7 @@ void newgame() {
 	score = 0;
 	level = 25;
 	levels = 1;
-/*arrow.r and .c are positions of the gun on teh window rows and colmsms*/
+/*arrow.r and .c are initital positions of the gun on teh window rows and colmsms*/
 	arrow.r = rmax / 2;
 	arrow.c = cmax - 4;
 	arrow.w = 3;
@@ -587,7 +591,7 @@ void game2() {
 				copyobject(&old[i], &bugs[i]);
 			}
 			int oldn = nbugs;
-			nbugs += levels;;
+			nbugs += levels;
 			bugs = realloc(bugs, nbugs * sizeof(object));
 			for (i = 0; i < oldn; i++) {
 				copyobject(&bugs[i], &old[i]);

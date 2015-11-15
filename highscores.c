@@ -51,8 +51,8 @@ void highscores() {
 	int n = 0;
 	while (1) {
 		char line[512] = {'\0'};
-		char hname[256] = {'\0'};;
-		char hscore[128] = {'\0'};;
+		char hname[256] = {'\0'};
+		char hscore[128] = {'\0'};
 		if (!fgets(line, sizeof line, hi))
 			break;
 		getnamescore(line, hname, hscore);
@@ -72,8 +72,8 @@ void highscores() {
 	drawstring("Highscores", r - 2, cmax / 2 - 4);
 	while (1) {
 		char line[512] = {'\0'};
-		char hname[256] = {'\0'};;
-		char hscore[128] = {'\0'};;
+		char hname[256] = {'\0'};
+		char hscore[128] = {'\0'};
 		if (!fgets(line, sizeof line, hi)) 
 			break;
 		getnamescore(line, hname, hscore);
@@ -87,8 +87,8 @@ void highscores() {
 int checkhighscore(FILE *hi) {
 	int place = 0;
 	while (1) {
-		char line[512] = {'\0'};;
-		char hname[256] = {'\0'};;
+		char line[512] = {'\0'};
+		char hname[256] = {'\0'};
 		char hscore[128] = {'\0'};
 		if (!fgets(line, sizeof line, hi))
 			break;

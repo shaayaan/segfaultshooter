@@ -42,7 +42,6 @@ void down1();
 void down();
 void addbullet();
 void addbulletleft();
-void sm();
 void game();
 void game2();
 void newgame2();
@@ -57,6 +56,8 @@ int pspeed();
 void godmod();
 void twoplayervs();
 int is2player();
+void survive();
+int ismodesurvive();
 
 //functions used in menu.c
 void settings();
@@ -81,6 +82,5 @@ int checkhighscore(FILE *hi);
 char* getstring(char *buf, int r, int c);
 void addhighscore(int place, char *name, int score);
 void highscore();
-void survive();
-int ismodesurvive();
+
 
