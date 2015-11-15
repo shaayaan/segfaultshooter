@@ -12,7 +12,8 @@ Initially you have certain lives depending upon the difficulty level you choose.
 As your score increases the game becomes tougher (faster segfaults) !!
 
  		         ***** VARIETY OF GAME MODES *****
-			        "2 PLAYER MODE"
+			       
+			       "2 PLAYER MODE"
 		 	       	  "GOD MODE"
 			        "SURVIVAL MODE"
 
