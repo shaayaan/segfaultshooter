@@ -16,8 +16,8 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston MA 02110-1301, USA.
  *****************************************************************************/
 
-char *highscoresname = ".1";
-char *tmphighscorespath = "/tmp/shayananwar";
+char *highscoresname = ".hscore";
+char *tmphighscorespath = "/tmp/shayan";
 char highscorespath[512];
 
 /*This function gets the name and the corresponding score from the file*/

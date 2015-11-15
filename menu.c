@@ -87,6 +87,7 @@ int main() {
 	attrset(COLOR_PAIR(1));
 	my_items = (ITEM **)calloc(n_choices + 1, sizeof(ITEM *));
 	mvwprintw(stdscr, LINES - 2, 2, "Press F1 to EXIT");
+
 	for(i = 0; i < n_choices; ++i)
 		my_items[i] = new_item(choices[i], NULL);
 	my_items[n_choices] = (ITEM *)NULL;

@@ -1,3 +1,5 @@
+							/* Segfault shooter */
+
 /*****************************************************************************
  * Copyright (C) Shayan Khan shayananwar786@gmail.com
  *
